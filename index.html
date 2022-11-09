@@ -9,9 +9,11 @@
 </head>
 <body>
     <header class="header">
+<div id="menu-btn" class="fas fa-bars"></div>
+
         <a href="#home" class="logo">Portfolio</a>
         <nav class="navbar">
-            <a href="#home">Home</a>
+            <a href="#home" class="active">Home</a>
             <a href="#about">About Me</a>
             <a href="#hportfolio">Portfolio</a>
             <a href="#contact">Contact</a>
@@ -23,8 +25,16 @@
             <a href="" class="fab fa-github"></a>
             <a href="" class="fab fa-instagram"></a>
         </div>
+        <div class="dark-mode">
+            <button onclick="myFunction()">Toggle dark mode</button>
+        </div>
     </header>
-    
+
+    <section class="home" id="home">
+        <div class="avatar"><img src="./images/IMG_0081.JPG" alt=""></div>
+        <div class="content"><h3>Hello, I am Ardonis Vitia</h3>
+        <span>Web Developer</span></div>
+    </section>
     <script src="/script.js"></script>
 </body>
 </html>
